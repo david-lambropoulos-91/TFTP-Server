@@ -30,7 +30,7 @@
    * Losing access to a necessary resource
       * disk full; access denied during
 
-
+<pre>
 
           ---------------------------------------------------
          |  Local Medium  |  Internet  |  Datagram  |  TFTP  |
@@ -44,6 +44,7 @@
 		   * TFTP Header (2 byte opcode field indicating the packet's type (e.g., DATA, ERROR, etc.))
 		   * Local Trasport Medium (Optional)
 
+</pre>
 * TID = Transfer Identifiers
    * 0 - 65535
    * Used by TFTP to pass to the Datagram layer to be used as ports
@@ -165,7 +166,13 @@
 
 **Termination**
 * Normal
+   * End marked by DATA packet that contains between 0 and 511 bytes.
+      * Acknowledged by ACK
    * 
+
+* Note
+   * The host can close
+
 * Premature
    * 
 
