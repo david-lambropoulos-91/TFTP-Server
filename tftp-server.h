@@ -4,7 +4,7 @@
 // Packet Definitions
 #define DATA_PACKET_SIZE 516 /* 2 (Opcode) + 2 (Block #) + 512 (Data) */
 #define ACK_PACKET_SIZE 4 /* 2 (Opcode) + 2 (Block #) */
-#define FILENAME_SIZE 64 /* Normal file length restriction */
+#define FILENAME_SIZE 64 /* Normal file length restriction */ 
 #define ERROR_STRING_SIZE 512 /* Maxium size for an error string */
 
 #define DATA_BLOCK_LIMIT 512 /* Maximum size for a Data block */
