@@ -3,10 +3,6 @@
 
 int main(int argc, char** argv)
 {
-	// Client and server sockets
-	struct sockaddr_in server;
-	struct sockaddr_in client;
-
 	int portNumber;	// Port number 	
 	
 	/* Check arguments */
